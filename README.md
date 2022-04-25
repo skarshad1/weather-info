@@ -3,7 +3,7 @@
 npm install react@17.0.0 react-dom@17.0.0
 npm start
 
-# I have used bootstrap & bootstrap Ions & Sass modules in this application.
+I have used bootstrap & bootstrap Ions & Sass modules in this application.
 
 npm install bootstrap
 npm i bootstrap-icons
@@ -19,8 +19,7 @@ i)   ListOfCities - To show the list of cities (Parent)
 ii)  AddCityPopup - To show the popup when clicked on Add New button (Child Of ListOfCities)
 iii) WeatherPopup - To show the weather popup when clicked on city (Child Of ListofCities)
 
-
-# AddCityPopup Component
+**AddCityPopup Component**
 Props: 
 1. method to updated city name {updateCityName}
 2. method to hide popup {hideAddCityPopup}
@@ -30,7 +29,7 @@ returns:
 UI of AddCityPoup
 city name typed in popup
 
-# WeatherPopup Component
+**WeatherPopup Component**
 Props:
 1. State which has Object of weather Data which got from API  {cityData}
 2. method to hide popup  {hideWeatherPopup}
