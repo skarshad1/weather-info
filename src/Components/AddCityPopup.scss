@@ -1,0 +1,53 @@
+$bgcolor: #DFF1F3;
+$bheight: 36px;
+$heighlight:#475767;
+
+.bnone{
+    border: none;
+}
+
+.close-button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: #FF83C1;
+    background-color:#FFE9F4;
+}
+
+
+.modal-bg{
+    background-color: white;
+    border-radius: 20px;
+}
+.input-addcity{
+    text-align: center;
+
+    input{
+        border: 0;
+        background-color: #E0E8EE;
+        border-radius: 10px;
+        height: 42px;
+        width: 400px;
+        @media screen and (max-width: 768px) {
+        width: 280px;
+        }
+    }
+    
+}
+
+.footeraddcity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#close{
+    background-color: white;
+    color: #3E9AA7 ;
+    border: 1px solid lightgray ;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,94 @@
+$bgcolor: #DFF1F3;
+$bheight: 36px;
+$heighlight:#475767;
+*{
+font-family: 'Roboto','Poppins','Sans-serif';
+}
+body{
+    background-color: #DFF1F3;
+}
+
+
+.button{
+    color:white;
+    background-color: #3E9AA7;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    height: $bheight;
+    width: 7em;
+}
+
+.increase-size{
+    font-size: 25px;
+}
+
+.background-task{
+    color: #40002C;
+}
+
+.add-head-spacing{
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.add-spacing{
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.search-option {
+    height: $bheight;
+    padding: 6px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #FFFFFF;
+        input{
+        border:none;
+        width: 250px;
+        @media screen and (max-width:768px) {
+            width:150px;
+            
+        }
+        }
+        
+        i{
+        color: black;
+        }
+
+}
+
+.head-title{
+    padding: 10px;
+    h2{
+        font-family: 'Roboto';
+        font: 400;
+        line-height: 2;
+        font-size: x-large;
+    }
+} 
+
+.search-section{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+
+.dustbin{
+    border: none;
+    color: $heighlight;
+    background-color: white;
+}
+.sort{
+    border: none;
+    color: $heighlight;
+    background-color: $bgcolor;
+}
